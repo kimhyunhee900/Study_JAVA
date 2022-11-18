@@ -1,0 +1,13 @@
+package com.hanul.variable;
+
+public class Ex02_Number {
+
+	public static void main(String[] args) {
+
+		byte no1 = -128;
+		byte no2 = 128;
+		
+		
+	}
+
+}

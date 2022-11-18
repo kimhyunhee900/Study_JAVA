@@ -1,0 +1,27 @@
+package com.hanul.variable;
+
+public class Ex03_Char {
+
+	public static void main(String[] args) {
+
+		//char은 한글자만 가능하고 '으로 해야함
+		char ch1 = 'A';
+		System.out.println("ch1에 저장된 값은 " + ch1 + "입니다");
+		char ch2 = 'B';
+		System.out.println("ch2에 저장된 값은 " + ch2 + "입니다");
+		
+		// String은 값이 없는 ""; 으로도 가능
+		String str = "가나다";
+		System.out.println("str에 저장된 값은 " + str + "입니다");
+		String strr = "";
+		System.out.println("strr에 저장된 값은 " + strr + "입니다");
+		
+		//문자를 int형으로 캐스팅하여 표현
+		System.out.println("문자 A의 정수값은 " + (int)ch1 + "입니다");
+		System.out.println("문자 A의 정수값은 " + (int)ch2 + "입니다");
+
+	
+	
+	}
+
+}

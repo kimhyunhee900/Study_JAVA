@@ -1,0 +1,25 @@
+package com.hanul.variable;
+
+public class Ex02_Number {
+
+	public static void main(String[] args) {
+
+	byte no1 = -128;
+	//byte no2 = 128;
+	
+	short no3 = 10000;
+	//int no4 = 12345678900;
+	int no4 = 1234567890;
+	long no5 = 1234567890;
+	long no6 = 12345678900l;
+	
+	int no7 = 800, no8 = 900;
+		int sum = no7 + no8;
+		System.out.println(sum);
+	int no9 = 1000, no10 = 1100
+		int sum = no10 - no9
+		System.out.println(sum);
+		
+	}
+
+}

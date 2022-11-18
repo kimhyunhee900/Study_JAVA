@@ -1,0 +1,34 @@
+package com.hanul.variable;
+
+public class Ex01_Variable {
+	public static void main(String[] args) {
+
+ /*
+	System.out.println(75);
+	System.out.println(0b1001011);
+	System.out.println(0113);
+	System.out.println(0x4b);
+ 모든 클래스는 첫번째에 main 함수가 들어가야한다.
+ syso는 system.out.printLn의 약자다.
+ 2진수, 8진수, 10진수, 16진수, 32진수 등 기계어로 DB를 받는 경우 구글에 진수변환기 검색 후 사용하면된다.
+ 
+ */
+/*
+ 선언 : 데이터타입 변수명 -> int num;으로만 되어있을시 선언만 한거고 메모리에 저장되지않음
+ 		int num;
+ 		System.out.println(num); -> 사용불가능
+ 초기화(값)을 설정시 사용가능 -> int num = 10;
+*/
+		int num = 10;
+		System.out.println(num);
+ 
+		// 선언과 초기화 같이
+		int num1 = 15;
+		// 여러개를 같이 쓰고자 할때
+		int num2 = 21, num3 = 22, num4 = 24;
+		
+		System.out.println(num);
+		System.out.println(num+num1);
+		
+	}
+}
