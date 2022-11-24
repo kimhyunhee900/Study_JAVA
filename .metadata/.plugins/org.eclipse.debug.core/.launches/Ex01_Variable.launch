@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Variable/src/com/hanul/variable/Ex01_Variable.java"/>
+        <listEntry value="/H02_Variable/src/com/hanul/variable/Ex01_Variable.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -9,5 +9,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.hanul.variable.Ex01_Variable"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Variable"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="H02_Variable"/>
 </launchConfiguration>
