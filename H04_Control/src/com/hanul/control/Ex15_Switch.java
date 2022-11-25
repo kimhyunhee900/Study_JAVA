@@ -30,22 +30,20 @@ public class Ex15_Switch {
 				break;
 		}
 		
-		int no2=9;
+		int no2=8;
 		switch(no2%3) {
-			case 1 :
+			case 0 :
 				System.out.println("3의 배수");
 				break;
+			case 1 :
 			case 2 :
-				System.out.println("은메달");
+				System.out.println("3의 배수가 아님");
 				break;
-			case 3 :
-				System.out.println("동메달");
-				break;
-			default :
-				System.out.println("해당되지않음");
+				
+				
 		// 위의 경우 break가 없어서 맞는 조건 이후도 다 출력되어버림
 		// 각 case에 해당하지 않을 경우 마지막에 if문의 else 처럼 default로 마지막에 적어주면됨.
-				
+		// default 는 위에서 만족하는 값이 없으면 나오는 결과값		
 				
 				
 		}
