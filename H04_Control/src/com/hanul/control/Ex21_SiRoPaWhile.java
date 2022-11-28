@@ -17,8 +17,9 @@ public class Ex21_SiRoPaWhile {
 					user = r.nextInt(3);
 					computer = r.nextInt(3);
 					System.out.printf("사용자 %d, 컴퓨터 %d \n", user, computer);
+					// 위와 같은 결과값, 표현방식이 다름. System.out.println("user = " + user, "computer = " + computer);
 					if(user==computer) {
-						System.out.println("가위 바위 보!!");
+						System.out.println("비겼다!");
 					}
 				}while(user==computer);
 					if ((user==scissors && computer==paper)

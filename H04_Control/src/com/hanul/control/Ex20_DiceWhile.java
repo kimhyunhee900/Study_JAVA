@@ -14,19 +14,18 @@ public class Ex20_DiceWhile {
 
 		int user = 0, computer = 0;
 		do { 
+			System.out.println("주사위를 던지세요!");
 			user = r.nextInt(6) + 1;
 			computer = r.nextInt(6) + 1;
-			System.out.println("주사위를 던지세요!");
 			System.out.printf("사용자 %d, 컴퓨터 %d \n", user, computer);
-			
-			if(user>computer) {
-				System.out.println("내가 승리!");
-			}else if(user<computer) {
-				System.out.println("컴퓨터가 승리!");
-			}
 		} while( user == computer );
 	
-	
+		if(user>computer) {
+			System.out.println("내가 승리!");
+		}else if(user<computer) {
+			System.out.println("컴퓨터가 승리!");
+		}
+		// if, else if 를 do while 밖으로 빼놓는 이유는 비겼을 경우에만 다시 하게끔 하고, 그 외에는 if문으로 가면되니까. 더 처리 속도 빠를수있음
 	
 	
 	
