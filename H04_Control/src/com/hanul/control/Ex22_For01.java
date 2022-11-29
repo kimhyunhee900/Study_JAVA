@@ -9,7 +9,7 @@ public class Ex22_For01 {
 		// for문
 		// for( 초기화식; 조건식; 조건증감식(조건변경식){
 		//		실행명령문;
-		// }
+		// }    **변수는 for문에서 초기화하되, sum같은 출력해야하는 변수는 for문 밖에서 선언해야함.
 		
 		// *를 10개 출력하기
 		for(int i = 0; i < 10; i++) {
@@ -71,7 +71,7 @@ public class Ex22_For01 {
 		for(int j = 1; j <= aaa; j++ ) {
 			qq += j;
 		}
-		System.out.printf("받은 값은 %d 이고 합은 %d 입니다 \n", aaa, qq );
+		System.out.printf("받은 값은 %d 이고 총 합은 %d 입니다 \n", aaa, qq );
 		
 		
 		//실습4. 1부터 입력받은 수 중 3의 배수만 출력하는 프로그램을 for문으로 작성
