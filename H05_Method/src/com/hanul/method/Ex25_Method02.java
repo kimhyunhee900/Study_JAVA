@@ -9,11 +9,18 @@ public class Ex25_Method02 {
 		// sub ( int no1, int no2) : 두 수를 뺀 값을 출력
 		
 		add(1,2);
-		sub(1,2);
+		sub(1,2); 
+		int mul = multi(10,5);
+		System.out.println(mul);
+		int divi = div(9,3);
+		System.out.println(divi);
+		System.out.println(mul + divi);
 	}
 	
 	static void add(int no1, int no2) {
 		int add = no1 + no2;
+		//System.out.println(no1+no2);
+		//System.out.printf("sum = %d", no1+no2);
 		System.out.println(add);
 	}
 	
@@ -22,6 +29,14 @@ public class Ex25_Method02 {
 		System.out.println(sub);
 	}
 	
+	static int multi(int no1, int no2) {
+		int go = no1 * no2;
+		return go;
+	}
 	
+	static int div(int no1, int no2) {
+		int na = no1 / no2;
+		return na;
+	}
 
 }
