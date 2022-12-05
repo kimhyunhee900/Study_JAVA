@@ -41,6 +41,38 @@ public class Ex33_CarMain {
 		System.out.printf("현재 속도는 %d 입니다\n", hs.speed);
 		
 		hs.stop();
+		
+		
+		hs.owner = "김현희";
+		hs.modelName = "Audi";
+		
+		System.out.printf("%s 의 차종은 %s 입니다\n", hs.owner, hs.modelName);
+		
+		hs.start();
+		
+		hs.stepAccel();
+		System.out.println(hs.speed);
+		hs.stepAccel();
+		System.out.println(hs.speed);
+		hs.stepAccel();
+		System.out.println(hs.speed);
+		hs.stepAccel();
+		System.out.println(hs.speed);
+		
+		hs.stepBreak();
+		System.out.println(hs.speed);
+		hs.stepBreak();
+		System.out.println(hs.speed);
+		hs.stepBreak();
+		System.out.println(hs.speed);
+		hs.stepBreak();
+		System.out.println(hs.speed);
+		hs.stepBreak();
+		System.out.println(hs.speed);
+		
+		System.out.printf("현재 속도는 %d 입니다\n", hs.speed);
+		
+		hs.stop();
 	}
 
 }

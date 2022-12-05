@@ -10,6 +10,24 @@ public class Ex32_Car {
 
 	String owner, modelName;
 	int speed;
+	
+	//생성자 
+	Ex32_Car(String owner){
+		this.owner = owner; 
+	}
+	
+	Ex32_Car(){}
+	
+	public Ex32_Car(String owner, String modelName) {
+		this.owner = owner;
+		this.modelName = modelName;
+	}
+	
+	public Ex32_Car(String owner, String modelName, int speed) {
+		this.owner = owner;
+		this.modelName = modelName;
+		this.speed = speed;
+	}
 
 	void start() {
 		System.out.println("시동을 걸었습니다");
@@ -18,15 +36,16 @@ public class Ex32_Car {
 		System.out.println("시동을 껐습니다");
 	}
 	void stepAccel() {
-		speed = speed + 40;
+		speed += 40;
 		if(speed>=100) {
 			speed=100;
 		}
 	}	
 	void stepBreak() {
-		speed = speed - 30;
+		speed -= 30;
 		if(speed<=0) {
 			speed=0;
 		}
 	}
+	
 }
