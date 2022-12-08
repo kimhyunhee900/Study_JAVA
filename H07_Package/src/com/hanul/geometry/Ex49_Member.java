@@ -1,6 +1,6 @@
-package com.hanul.object;
+package com.hanul.geometry;
 
-public class Ex38_Member {
+public class Ex49_Member {
 
 	// 회원의 이름, 아이디, 패스워드, 폰번호, 나이
 	// 회원객체를 처음 생성할때 이름, 아이디, 패스워드는 무조건 입력
@@ -8,33 +8,25 @@ public class Ex38_Member {
 	// 메소드 : 폰번호 변경, 패스워드 변경, 나이변경 메스드를 작성하시오
 	
 	
-	String name, id, pw, phoneN;
-	int age;
+	public String name, id, pw, phoneN;
+	public int age;
 	
 		// public Ex38_Member(){}  -> 빈 생성자는 무조건 받는 값이 있으니 애초에 만들지않음. 
 	
-	public Ex38_Member(String name, String id, String pw) {
+	public Ex49_Member(String name, String id, String pw) {
 		this.name = name;
 		this.id = id;
 		this.pw = pw;
 	}
 	
-	public Ex38_Member(String name, String id, String pw, String phoneN) {
-		this.name = name;
-		this.id = id;
-		this.pw = pw;
-		this.phoneN = phoneN;
-	}
-	
-	public Ex38_Member(String name, String id, String pw, int age) {
+	public Ex49_Member(String name, String id, String pw, String phoneN) {
 		this.name = name;
 		this.id = id;
 		this.pw = pw;
 		this.phoneN = phoneN;
-		this.age = age;
 	}
 	
-	public Ex38_Member(String name, String id, String pw, String phoneN, int age) {
+	public Ex49_Member(String name, String id, String pw, int age) {
 		this.name = name;
 		this.id = id;
 		this.pw = pw;
@@ -42,7 +34,7 @@ public class Ex38_Member {
 		this.age = age;
 	}
 	
-	public Ex38_Member(String name, String id, String pw, int age, String phoneN) {
+	public Ex49_Member(String name, String id, String pw, String phoneN, int age) {
 		this.name = name;
 		this.id = id;
 		this.pw = pw;
@@ -50,15 +42,23 @@ public class Ex38_Member {
 		this.age = age;
 	}
 	
-	void chna(String name) {
+	public Ex49_Member(String name, String id, String pw, int age, String phoneN) {
+		this.name = name;
+		this.id = id;
+		this.pw = pw;
+		this.phoneN = phoneN;
+		this.age = age;
+	}
+	
+	public void chna(String name) {
 		this.name = name;
 	}
 	
-	void chpw(String pw) {
+	public void chpw(String pw) {
 		this.pw = pw;
 	}
 	
-	void chage(int age) {
+	public void chage(int age) {
 		this.age = age;
 	}
 }

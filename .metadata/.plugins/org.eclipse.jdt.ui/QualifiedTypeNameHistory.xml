@@ -7,4 +7,10 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.hanul.object.Ex33_CarMain"/>
     <fullyQualifiedTypeName name="com.hanul.object.Ex36_Creater01"/>
+    <fullyQualifiedTypeName name="com.hanul.geometry.Ex47_Circle"/>
+    <fullyQualifiedTypeName name="com.hanul.geometry.Ex49_Member"/>
+    <fullyQualifiedTypeName name="com.hanul.Inheritance.Ex53_People"/>
+    <fullyQualifiedTypeName name="com.hanul.Inheritance.Ex51_Student"/>
+    <fullyQualifiedTypeName name="com.hanul.Inheritance.Ex52_Worker"/>
+    <fullyQualifiedTypeName name="com.hanul.account.Ex57_CheckcardAccount"/>
 </qualifiedTypeNameHistroy>

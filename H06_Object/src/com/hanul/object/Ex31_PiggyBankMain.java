@@ -45,7 +45,6 @@ public class Ex31_PiggyBankMain {
 
 	static void printBank(String owner, int total) {
 		System.out.printf("%s 의 저금통의 총액은 %d 입니다\n", owner, total );
-	
 	}
 	
 	
