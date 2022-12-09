@@ -9,10 +9,13 @@ public class Ex52_Worker extends Ex53_People {
 		this.workerN = workerN;
 	}
 
-	void gotoWork() {
-		System.out.println(name + " 출근한다");
-	}
+//	void gotoWork() {
+//		System.out.println(name + " 출근한다");
+//	}
 
-	
+	@Override
+	void go() {
+		System.out.println(name + " 출근한다");
+	};
 	
 }

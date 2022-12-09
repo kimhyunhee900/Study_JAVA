@@ -14,4 +14,8 @@
     <fullyQualifiedTypeName name="com.hanul.Inheritance.Ex52_Worker"/>
     <fullyQualifiedTypeName name="com.hanul.account.Ex57_CheckcardAccount"/>
     <fullyQualifiedTypeName name="com.hanul.animal.Ex59_animal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.css.Rect"/>
+    <fullyQualifiedTypeName name="com.hanul.shape.Ractangle"/>
+    <fullyQualifiedTypeName name="com.hanul.shape.Triangle"/>
 </qualifiedTypeNameHistroy>

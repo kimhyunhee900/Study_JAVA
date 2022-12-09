@@ -12,12 +12,14 @@ public class Ex51_Student extends Ex53_People {
 		this.studentN = studentN;
 	}
 
-	void gotoschool() {
+//	void gotoschool() {
+//		System.out.println(name + " 등교한다");
+//	}
+
+	@Override
+	void go(){
 		System.out.println(name + " 등교한다");
 	}
-
-	
-	
 	
 	
 }
