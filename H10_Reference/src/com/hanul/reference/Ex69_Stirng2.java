@@ -63,6 +63,21 @@ public class Ex69_Stirng2 {
 		// 특정위치(왼쪽6위치)에서부터 "문자"라는 문자열의 시작위치
 		System.out.println(str8.indexOf("문자",6));
 		
+		String str9 = "안녕 나는 홍길동이야";
+		String[] arr1 = str9.split(" ");  //split : 원하는부분을 자르는 기능
+		
+		for(String str10 : arr1) {
+			System.out.println(str10);
+		}
+		
+		String str10 = "안녕,나는,홍길동이야";
+		String[] arr2 = str10.split(",");
+		
+		for(String str11 : arr1) {
+			System.out.println(str11);
+		}
+		
+		
 	}
 
 }
