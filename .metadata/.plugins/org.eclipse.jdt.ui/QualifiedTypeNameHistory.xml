@@ -18,4 +18,6 @@
     <fullyQualifiedTypeName name="org.w3c.dom.css.Rect"/>
     <fullyQualifiedTypeName name="com.hanul.shape.Ractangle"/>
     <fullyQualifiedTypeName name="com.hanul.shape.Triangle"/>
+    <fullyQualifiedTypeName name="com.hanul.Interfac.Ractangle"/>
+    <fullyQualifiedTypeName name="com.hanul.animal.dog"/>
 </qualifiedTypeNameHistroy>
