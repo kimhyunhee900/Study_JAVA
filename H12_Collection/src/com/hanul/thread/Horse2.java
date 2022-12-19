@@ -1,7 +1,7 @@
 package com.hanul.thread;
 
 public class Horse2 implements Runnable {
-	// extends Thread로 하지 않고 implements Runnable로 해도 결과는 같다.
+	// 이미 상속받은게 있어서 extends Thread로 하지 않으면 implements Runnable로 해도 결과는 같다.
 	
 	String name;
 	int no;
