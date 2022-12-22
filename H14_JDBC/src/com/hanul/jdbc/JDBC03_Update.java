@@ -28,7 +28,9 @@ public class JDBC03_Update {
 			
 			// 3. SQL문 선언
 			// 100번 사원의 급여, 이메일, 전화번호를 변경한다
-			String sql = "update employees set " + "salary=26000, email = 'king@naver.com', phone_number='010-4567-9852' "
+			int salary = 26000;
+			String email = "godking@naver.com";
+			String sql = "update employees set " + "salary=" + salary + ", email = '" + email + "', phone_number='010-4567-9852' "
 						+ " where employee_id = 100";
 			
 			// 3-1 Statement 객체생성
